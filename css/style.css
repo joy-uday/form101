@@ -1,61 +1,55 @@
-*{
+* {
     margin: auto;
     padding: auto;
 }
-.full-body{
-
-    background: #77E3EA;
+.full-body {
+    background: #77e3ea;
     height: 100vh;
 }
-.registration-form{
-
+.registration-form {
     width: 70%;
     height: ;
     margin: auto;
 }
 
-.registration-form-wrapper{
-
+.registration-form-wrapper {
     display: flex;
     height: 100vh;
 }
-.information-part{
-
+.information-part {
     flex-basis: 50%;
-    background: #3387BE;
-    height: 80vh;
-}
-.information-part-wrapper{
 
+    background: #3387be;
+
+    height: 80vh;
+
+    border-radius: 10px 0px 0px 10px;
+}
+.information-part-wrapper {
     padding: 10%;
     margin-top: 0%;
     font-size: ;
 }
-.information-part-wrapper h1{
-
+.information-part-wrapper h1 {
     color: white;
     font-family: adobe gothic std;
     font-size: 30px;
 }
-.information-part-wrapper p{
-
+.information-part-wrapper p {
     font-family: arial;
     color: white;
 }
-.information-part-wrapper h4{
-
+.information-part-wrapper h4 {
     color: white;
     font-family: arial;
     margin-top: 4%;
 }
-.information-part-wrapper span{
-
+.information-part-wrapper span {
     font-size: 25px;
     color: wheat;
     margin-right: 2%;
 }
-.information-part-wrapper button{
-
+.information-part-wrapper button {
     color: #616161;
     background: wheat;
     border: none;
@@ -67,119 +61,106 @@
     border-radius: 7px 0px 7px 0px;
     cursor: pointer;
 }
-.information-part-wrapper button:hover{
-    
+.information-part-wrapper button:hover {
     border-radius: 0px 7px 0px 7px;
     background: #3387be;
     color: white;
     border: 1px solid #fff;
-    transition: .3s ease;
+    transition: 0.3s ease;
 }
-.registration-form-part{
-
+.registration-form-part {
     flex-basis: 50%;
+
     background: white;
+
     height: 80vh;
+
+    border-radius: 0px 10px 10px 0px;
 }
-.registration-form-part-wrapper{
-    
+.registration-form-part-wrapper {
     padding: 10%;
 }
- 
-.registration-form-part h1{
 
+.registration-form-part h1 {
     font-family: adobe gothic std;
     text-transform: uppercase;
     color: black;
     font-size: 30px;
 }
- 
-.name-field{
 
+.name-field {
     display: flex;
     margin: 4% 0;
 }
-.name-field input{
-
+.name-field input {
     width: 85%;
     height: 30px;
     border: 1px solid #888886;
 }
-.name-field label{
-
+.name-field label {
     color: #868686;
     font-size: 14px;
     font-family: adobe gothic std;
     text-transform: uppercase;
 }
- 
-.email-field{
 
+.email-field {
     margin: 4% 0;
-} 
-.email-field input{
-
+}
+.email-field input {
     width: 92.3%;
     height: 30px;
     border: 1px solid #888886;
 }
 
-.email label{
-
+.email label {
     display: block;
     color: #868686;
     font-size: 14px;
     font-family: adobe gothic std;
     text-transform: uppercase;
 }
-.password-field{ 
+.password-field {
     display: flex;
     margin: 4% 0;
 }
 
-.password label{
-
+.password label {
     color: #868686;
     font-size: 14px;
     font-family: adobe gothic std;
     text-transform: uppercase;
 }
-.password input{
-    
+.password input {
     width: 100%;
     height: 30px;
     border: 1px solid #888886;
 }
-.confirm-password{
-
+.confirm-password {
     margin-left: 7%;
 }
-.confirm-password label{
+.confirm-password label {
     color: #868686;
     font-size: 14px;
     font-family: adobe gothic std;
     text-transform: uppercase;
 }
-.confirm-password input{
+.confirm-password input {
     width: 85%;
     height: 30px;
     border: 1px solid #888886;
 }
-.terms-condition{
-
+.terms-condition {
     margin: 5% auto;
-} 
-.terms-condition label{
-
+}
+.terms-condition label {
     margin-left: 4%;
     font-family: adobe gothic std;
     font-size: 12px;
     padding: 2px;
 }
- 
 
-form button{
-    
+form button {
     color: white;
     background: #3387be;
     border: none;
@@ -190,10 +171,9 @@ form button{
     margin-top: 5%;
     border-radius: 7px 0px 7px 0px;
     cursor: pointer;
-    transition: .3s ease;
+    transition: 0.3s ease;
 }
-form button:hover{
-
+form button:hover {
     border-radius: 0px 7px 0px 7px;
     background: white;
     color: #3387be;
